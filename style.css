@@ -29,7 +29,7 @@ body
 {
     display: flex;
     justify-content: center;
-    width:auto;
+    width: 60rem;
     background-color: rgb(243,243,243);
     border: 1px solid black;
     min-width: 60rem;
@@ -44,23 +44,23 @@ body
 
 #title
 {
-    margin: 1rem 27rem 50px 27rem;
+    margin: 1rem auto 50px auto;
     height: 5rem;
 }
 
 #header
 {
-    margin-left: 27rem;
+    margin: 1rem auto 50px auto;
     height: 3rem;
     margin-bottom: 20px;
     width: 30rem;
-    min-width: 30rem;
+    min-width: 30rem;  
 }
 
 #paragraph
 {
     padding:20px;
-    margin: 0 27rem 50px 27rem;
+    margin: 0 auto 50px auto;
     gap: 100px;
 }
 
@@ -72,7 +72,7 @@ body
 
 .var1
 {
-    display:inline-block
+    display:block;
 }
 
 .var1 .image-container  
@@ -87,6 +87,11 @@ body
 .var2 img
 {
     margin: 0;
+}
+
+.outside
+{
+    padding: 0 auto 0 auto;
 }
 
 

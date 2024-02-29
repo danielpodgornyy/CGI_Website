@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    text-decoration: none;
+    position:relative;
+}
+
+h1
+{
+    font-size: 3rem;
+}
+
+h2
+{
+    font-size: 2rem;
+}
+
+p,div
+{
+    font-size: 1.2rem;
+}
+
+body
+{
+    background-image: url(imgs/grid.jpeg)
+}
+
+.block
+{
+    display: flex;
+    justify-content: center;
+    width:auto;
+    background-color: rgb(243,243,243);
+    border: 1px solid black;
+    min-width: 900px;
+}
+
+.block h1,
+.block h2,
+.block p
+{
+    margin:auto;
+}
+
+#title
+{
+    margin: 1rem 27rem 50px 27rem;
+    height: 5rem;
+}
+
+#header
+{
+    margin-left: 27rem;
+    height: 3rem;
+    margin-bottom: 20px;
+    width: 500px;
+    min-width: 500px;
+}
+
+#paragraph
+{
+    padding:20px;
+    margin: 0 27rem 50px 27rem;
+    gap: 100px;
+}
+
+#paragraph img
+{
+    width: 300px;
+    object-fit: contain;
+}
+
+.var1
+{
+    display:inline-block
+}
+
+.var1 .image-container  
+{
+    float:right;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    display:flex;
+    flex-direction: column;
+}
+
+.var2 img
+{
+    margin: 0;
+}
+
+
+
